@@ -1,2 +1,0 @@
-# SDI
- Specialist Doctors International

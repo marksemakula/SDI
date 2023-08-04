@@ -378,9 +378,9 @@ a img.aligncenter {
 .header_style_01 .navbar-default .navbar-nav > li > a {
     border-radius: 0;
     color: #ffffff !important;
-    font-size: 15px;
+    font-size: 8px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 350;
     text-transform: capitalize;
     background-color: transparent;
 }
@@ -449,7 +449,19 @@ li.social-links a {
     top: 13px;
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+ }
+ 
+ .logo-container {
+    margin-right: 20px; /* Adjust the margin as needed */
+ }
 
+ .logo-container img {
+    max-width: 100px; /* Adjust the max-width as needed */
+    height: auto; /* Maintain aspect ratio */
+ }
 /*------------------------------------------------------------------
     SECTIONS
 -------------------------------------------------------------------*/

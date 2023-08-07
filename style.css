@@ -406,18 +406,18 @@ a img.aligncenter {
 }
 
 .header_style_01 .navbar-right > li > a {
-    padding-bottom: 6px;
-    padding-top: 6px;
+    padding-bottom: 4px;
+    padding-top: 4px;
 }
 
 .header-top {
-    padding-top: 5px; /* Adjust the padding-top value as needed */
-    padding-bottom: 5px; /* Adjust the padding-bottom value as needed */
+    padding-top: 3px; /* Adjust the padding-top value as needed */
+    padding-bottom: 3px; /* Adjust the padding-bottom value as needed */
  }
  
  .header-bottom {
-    padding-top: 5px; /* Adjust the padding-top value as needed */
-    padding-bottom: 5px; /* Adjust the padding-bottom value as needed */
+    padding-top: 3px; /* Adjust the padding-top value as needed */
+    padding-bottom: 3px; /* Adjust the padding-bottom value as needed */
  }
 
 li.social-links {
@@ -425,7 +425,7 @@ li.social-links {
 }
 
 li.social-links a {
-    padding: 13px 0 !important;
+    padding: 10px 0 !important;
 }
 
 .affix-top {
@@ -464,12 +464,12 @@ li.social-links a {
     align-items: center;
  }
  
- .logo-container {
-    margin-right: 20px; /* Adjust the margin as needed */
+ .logo-container { 
+    margin-left: 110px;/* Adjust the margin as needed */
  }
 
  .logo-container img {
-    max-width: 100px; /* Adjust the max-width as needed */
+    max-width: 120px; /* Adjust the max-width as needed */
     height: auto; /* Maintain aspect ratio */
  }
 /*------------------------------------------------------------------

@@ -462,6 +462,8 @@ li.social-links a {
 .header-content {
     display: flex;
     align-items: center;
+    height: 15px;
+    font-size: 2px;
  }
  
  .logo-container { 

@@ -378,7 +378,7 @@ a img.aligncenter {
 .header_style_01 .navbar-default .navbar-nav > li > a {
     border-radius: 0;
     color: #ffffff !important;
-    font-size: 8px;
+    font-size: 4px;
     font-style: normal;
     font-weight: 350;
     text-transform: capitalize;
@@ -406,9 +406,19 @@ a img.aligncenter {
 }
 
 .header_style_01 .navbar-right > li > a {
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 6px;
+    padding-top: 6px;
 }
+
+.header-top {
+    padding-top: 5px; /* Adjust the padding-top value as needed */
+    padding-bottom: 5px; /* Adjust the padding-bottom value as needed */
+ }
+ 
+ .header-bottom {
+    padding-top: 5px; /* Adjust the padding-top value as needed */
+    padding-bottom: 5px; /* Adjust the padding-bottom value as needed */
+ }
 
 li.social-links {
     margin: 0 8px;

@@ -418,6 +418,7 @@ a img.aligncenter {
  .header-bottom {
     padding-top: 3px; /* Adjust the padding-top value as needed */
     padding-bottom: 3px; /* Adjust the padding-bottom value as needed */
+    height: 65px;
  }
 
 li.social-links {
@@ -462,8 +463,8 @@ li.social-links a {
 .header-content {
     display: flex;
     align-items: center;
-    height: 15px;
-    font-size: 2px;
+    height: 12px;
+    font-size: 1px;
  }
  
  .logo-container { 
@@ -479,7 +480,7 @@ li.social-links a {
 -------------------------------------------------------------------*/
 
 .parallax {
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-size: cover;
     height: 100%;
     padding: 120px 0;

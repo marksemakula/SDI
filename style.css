@@ -416,7 +416,7 @@ a img.aligncenter {
  }
  
  .header-bottom {
-    padding-top: 3px; /* Adjust the padding-top value as needed */
+    padding-top: -3px; /* Adjust the padding-top value as needed */
     padding-bottom: 3px; /* Adjust the padding-bottom value as needed */
     height: 65px;
  }

@@ -6,12 +6,9 @@
     <title>Netlify CMS</title>
 </head>
 <body>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const script = document.createElement("script");
-            script.src = "https://unpkg.com/netlify-cms-app/dist/netlify-cms.js";
-            document.body.appendChild(script);
-        });
+    <script type="module">
+        import { init } from 'https://cdn.jsdelivr.net/npm/netlify-cms-app@2.15.72/+esm';
+        init();
     </script>
 </body>
 </html>

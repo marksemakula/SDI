@@ -7,12 +7,13 @@
 </head>
 <body>
     <!-- Load Netlify CMS -->
-    <script src="https://unpkg.com/netlify-cms-app@2.15.72/dist/netlify-cms.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/netlify-cms-app@2.15.72/dist/netlify-cms.js"></script>
     
     <!-- Initialize CMS -->
     <script>
         window.onload = function() {
-            if (typeof CMS !== "undefined") {
+            // Check if CMS is loaded properly
+            if (window.CMS) {
                 CMS.init();
             } else {
                 console.error("Netlify CMS failed to load.");

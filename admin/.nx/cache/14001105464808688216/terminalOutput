@@ -1,0 +1,42 @@
+
+^D
+> decap-cms-editor-component-image@3.1.3 build
+> cross-env NODE_ENV=production webpack
+
+Building [decap-cms-editor-component-image, library: DecapCmsEditorComponentImage]
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Build Package: decap-cms-editor-component-image
+`isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration (/Users/marc1705/Dropbox/Mac/Documents/GitHub/SDI/admin/node_modules/@babel/types/lib/validators/generated/index.js:2748:35)
+    at PluginPass.Program (/Users/marc1705/Dropbox/Mac/Documents/GitHub/SDI/admin/node_modules/babel-plugin-lodash/lib/index.js:102:44)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[42m[30m DONE [39m[49m [32mCompiled successfully in 2863ms[39m                                [90m9:34:33 PM[39m
+
+asset [1m[32mdecap-cms-editor-component-image.js[39m[22m 18.5 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (name: main) 2 related assets
+webpack compiled [1m[32msuccessfully[39m[22m

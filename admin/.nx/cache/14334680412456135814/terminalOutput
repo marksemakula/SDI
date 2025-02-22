@@ -1,0 +1,13 @@
+
+^D
+> decap-cms-widget-relation@3.3.2 build:esm
+> cross-env NODE_ENV=esm babel src --out-dir dist/esm --ignore "**/__tests__" --root-mode upward
+
+Build Package: decap-cms-widget-relation
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+`isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration (/Users/marc1705/Dropbox/Mac/Documents/GitHub/SDI/admin/node_modules/@babel/types/lib/validators/generated/index.js:2748:35)
+    at PluginPass.Program (/Users/marc1705/Dropbox/Mac/Documents/GitHub/SDI/admin/node_modules/babel-plugin-lodash/lib/index.js:102:44)
+Successfully compiled 4 files with Babel (1469ms).

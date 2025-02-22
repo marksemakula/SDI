@@ -1,0 +1,42 @@
+
+^D
+> decap-cms-lib-widgets@3.1.0 build
+> cross-env NODE_ENV=production webpack
+
+Building [decap-cms-lib-widgets, library: DecapCmsLibWidgets]
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Build Package: decap-cms-lib-widgets
+`isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
+    at isModuleDeclaration (/Users/marc1705/Dropbox/Mac/Documents/GitHub/SDI/admin/node_modules/@babel/types/lib/validators/generated/index.js:2748:35)
+    at PluginPass.Program (/Users/marc1705/Dropbox/Mac/Documents/GitHub/SDI/admin/node_modules/babel-plugin-lodash/lib/index.js:102:44)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[42m[30m DONE [39m[49m [32mCompiled successfully in 4375ms[39m                                [90m6:40:34 PM[39m
+
+asset [1m[32mdecap-cms-lib-widgets.js[39m[22m 26.8 KiB [1m[32m[emitted][39m[22m [1m[32m[minimized][39m[22m (name: main) 1 related asset
+webpack compiled [1m[32msuccessfully[39m[22m

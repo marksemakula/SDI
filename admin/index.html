@@ -12,11 +12,10 @@
     <!-- Initialize CMS -->
     <script>
         window.onload = function() {
-            // Check if CMS is loaded properly
-            if (window.CMS) {
+            if (typeof CMS !== "undefined") {
                 CMS.init();
             } else {
-                console.error("Netlify CMS failed to load.");
+                console.error("Netlify CMS failed to load. Ensure the script is loaded correctly.");
             }
         };
     </script>

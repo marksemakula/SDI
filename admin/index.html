@@ -6,14 +6,13 @@
     <title>Admin Panel</title>
 </head>
 <body>
-    <!-- Load Decap CMS from the correct CDN -->
     <script src="https://unpkg.com/decap-cms@latest/dist/decap-cms.js"></script>
-
     <script>
         window.onload = function() {
             if (typeof CMS !== 'undefined') {
                 CMS.init();
             } else {
+                document.body.innerHTML = "<h1>Decap CMS failed to load.</h1>";
                 console.error("Decap CMS failed to load.");
             }
         };

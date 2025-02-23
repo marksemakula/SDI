@@ -10,7 +10,11 @@
     <script src="https://cdn.jsdelivr.net/npm/decap-cms@latest/dist/decap-cms.js"></script>
 
     <script>
-        CMS.init();
+        if (typeof CMS !== 'undefined') {
+            CMS.init();
+        } else {
+            console.error("Decap CMS failed to load.");
+        }
     </script>
 </body>
 </html>

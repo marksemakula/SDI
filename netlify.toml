@@ -1,6 +1,6 @@
 [build]
-  publish = "public"  # Change this to the folder where your site is built (e.g., "dist" or "build")
-  command = ""  # Leave empty if using a static site, or set to a build command (e.g., "npm run build")
+  publish = "public"  # Change to "dist" or "build" if needed
+  command = ""
 
 [[redirects]]
   from = "/admin"

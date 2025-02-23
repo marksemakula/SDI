@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main  # Change if your branch is not "main"
+  branch: main  # Change if using "master"
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"

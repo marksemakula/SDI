@@ -10,11 +10,13 @@
     <script src="https://unpkg.com/decap-cms@latest/dist/decap-cms.js"></script>
 
     <script>
-        if (typeof CMS !== 'undefined') {
-            CMS.init();
-        } else {
-            console.error("Decap CMS failed to load.");
-        }
+        window.onload = function() {
+            if (typeof CMS !== 'undefined') {
+                CMS.init();
+            } else {
+                console.error("Decap CMS failed to load.");
+            }
+        };
     </script>
 </body>
 </html>

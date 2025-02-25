@@ -1,8 +1,0 @@
-[build]
-  publish = "public"  # Change to "dist" or "build" if needed
-  command = ""
-
-[[redirects]]
-  from = "/admin"
-  to = "/admin/index.html"
-  status = 200

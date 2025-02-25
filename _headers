@@ -1,5 +1,0 @@
-/admin/*
-  Access-Control-Allow-Origin: *
-
-/admin/config.yml
-  Content-Type: text/yaml

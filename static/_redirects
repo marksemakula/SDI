@@ -1,3 +1,6 @@
+# Force HTTPS for all traffic
+http://* https://:splat 301
+
 # Ensure CMS loads correctly
 /admin/* /admin/index.html 200
 

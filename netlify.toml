@@ -1,4 +1,9 @@
 [[redirects]]
+  from = "http://*"
+  to = "https://:splat"
+  status = 301
+
+[[redirects]]
   from = "/admin/*"
   to = "/admin/index.html"
   status = 200

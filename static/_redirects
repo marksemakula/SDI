@@ -1,3 +1,8 @@
+# Ensure CMS loads correctly
 /admin/* /admin/index.html 200
+
+# Serve static assets correctly (main.js, images, etc.)
 /static/* /static/:splat 200
+
+# Catch-all: Always route to index.html
 /* /index.html 200

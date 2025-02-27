@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html>
-    <link rel="stylesheet" href="/styles.css">
-<script src="/Users/marc1705/Dropbox/Mac/Documents/GitHub/SDI/css" defer></script>
-
-  <head>
-    <meta charset="utf-8" />
-    <title>Admin</title>
-    <script src="https://cdn.jsdelivr.net/npm/decap-cms@latest/dist/decap-cms.js"></script>
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Manager</title>
+    <script src="https://unpkg.com/netlify-cms@latest/dist/netlify-cms.js"></script>
+</head>
+<body>
     <script>
-      window.onload = function () {
-        if (typeof CMS === "undefined") {
-          console.error("Decap CMS failed to load.");
-        } else {
-          CMS.init();
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
         }
-      };
     </script>
-  </body>
+</body>
 </html>

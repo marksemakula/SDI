@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Content Manager</title>
+    
+    <!-- Load Decap CMS -->
     <script src="https://unpkg.com/netlify-cms@latest/dist/netlify-cms.js"></script>
 </head>
 <body>
-    <div id="nc-root"></div> <!-- Required for Decap CMS -->
+    <!-- This div is required for Decap CMS to initialize properly -->
+    <div id="nc-root"></div>
 
     <script>
+        // Ensure Netlify Identity redirects to CMS after login
         if (window.netlifyIdentity) {
             window.netlifyIdentity.on("init", user => {
                 if (!user) {

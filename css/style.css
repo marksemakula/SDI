@@ -48,7 +48,7 @@ body {
 }
 
 .heading_container h2 span {
-  color: #00AEEF;
+  color: #3792cb;
 }
 
 .heading_container.heading_center {
@@ -435,7 +435,7 @@ h1 {
 }
 
 .slider_section .detail-box a:hover {
-  background-color: #0c0c0c;
+  background-color: #3792cb;
 }
 
 .slider_section .img-box img {
@@ -573,7 +573,7 @@ h1 {
 
 .book_section .nice-select:after {
   content: "\f107";
-  font-family: FontAwesome;
+  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
   border: none;
   width: auto;
   height: auto;
@@ -668,7 +668,7 @@ h1 {
 }
 
 .team_section {
-  background-color: #449e48;
+  background-color: #304C62;
 }
 
 .team_section .heading_container {
@@ -676,13 +676,13 @@ h1 {
 }
 
 .team_section .heading_container h2 {
-  color: #006ee6;
+  color: #3792cb;
   text-transform: uppercase;
   margin: 0;
 }
 
 .team_section {
-  background-image: url('images/didier-weemaels-ZKVBM2_Dp84-unsplash.jpg'); /* Your image path */
+  background-image: url('#'); /* Adjusted relative path */
   background-size: cover; /* Makes sure the image covers the entire section */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents repeating */
@@ -693,7 +693,6 @@ h1 {
   color: #FF7600; /* White text color */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow for better visibility */
 }
-
 
 .team_section .box {
   display: -webkit-box;
@@ -713,7 +712,7 @@ h1 {
   
   /* Combining Image and Gradient */
   background: linear-gradient(to bottom, transparent 100%, #FF7600 10%), 
-              url('/Users/marc1705/Dropbox/Mac/Documents/GitHub/SDI/images/didier-weemaels-ZKVBM2_Dp84-unsplash.jpg'); 
+              url('../images/didier-weemaels-ZKVBM2_Dp84-unsplash.jpg'); /* Adjusted relative path */
   background-size: cover; /* Ensure the image covers the box */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent tiling */
@@ -742,7 +741,7 @@ h1 {
 }
 
 .team_section .box .detail-box h6 {
-  color: #006ee6;
+  color: #3792cb;
 }
 
 .team_section .box .detail-box .social_box {
@@ -844,7 +843,7 @@ h1 {
 
 .client_section .box .client_info .client_name h5 {
   font-weight: 600;
-  color: #00AEEF;
+  color: #3792cb;
 }
 
 .client_section .box .client_info .client_name h6 {
@@ -885,6 +884,7 @@ h1 {
 
 .contact_section {
   position: relative;
+  font-family: "Gill Sans MT", sans-serif; /* Apply Gill Sans MT to the entire section */
 }
 
 .contact_section .heading_container {
@@ -901,29 +901,35 @@ h1 {
 
 .contact_section .form_container input {
   width: 100%;
-  border: 1px solid #3dBc40;
+  border: 1px solid #3dbc40;
   height: 50px;
   margin-bottom: 25px;
   padding-left: 15px;
   background-color: transparent;
   outline: none;
   color: #101010;
+  font-family: "Gill Sans MT", sans-serif; /* Apply Gill Sans MT to input fields */
+  font-size: 16px; /* Adjust font size as needed */
 }
 
 .contact_section .form_container input::-webkit-input-placeholder {
-  color: #3dBc40;
+  color: #3dbc40;
+  font-family: "Gill Sans MT", sans-serif; /* Apply Gill Sans MT to placeholder text */
 }
 
 .contact_section .form_container input:-ms-input-placeholder {
-  color: #3dBc40;
+  color: #3dbc40;
+  font-family: "Gill Sans MT", sans-serif; /* Apply Gill Sans MT to placeholder text */
 }
 
 .contact_section .form_container input::-ms-input-placeholder {
-  color: #3dBc40;
+  color: #3dbc40;
+  font-family: "Gill Sans MT", sans-serif; /* Apply Gill Sans MT to placeholder text */
 }
 
 .contact_section .form_container input::placeholder {
-  color: #3dBc40;
+  color: #3dbc40;
+  font-family: "Gill Sans MT", sans-serif; /* Apply Gill Sans MT to placeholder text */
 }
 
 .contact_section .form_container input.message-box {
@@ -935,20 +941,21 @@ h1 {
   text-transform: uppercase;
   display: inline-block;
   padding: 15px 65px;
-  background-color: #3dBc40;
+  background-color: #3dbc40;
   color: #ffffff;
   border-radius: 0;
   font-weight: bold;
+  font-family: "Gill Sans MT", sans-serif; /* Apply Gill Sans MT to the button */
+  font-size: 16px; /* Adjust font size as needed */
 }
 
 .contact_section .form_container button:hover {
-  background-color: #3dBc40;
+  background-color: #3dbc40;
 }
 
 .contact_section .img-box img {
   width: 100%;
 }
-
 .info_section {
   background-color: #252525;
   color: #ffffff;

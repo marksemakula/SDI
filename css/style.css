@@ -90,7 +90,7 @@ a:focus {
 }
 
 .header_section .header_top {
-  padding: 15px 0;
+  padding: 4px 0;
 }
 
 .header_section .header_top .contact_nav {
@@ -281,8 +281,8 @@ a:focus {
           align-items: center;
   -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
-  padding-top: 45px;
-  padding-bottom: 75px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .slider_section .dot_design {

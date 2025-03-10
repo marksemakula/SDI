@@ -681,9 +681,19 @@ h1 {
   margin: 0;
 }
 
-.team_section .heading_container h2 span {
-  color: #ffffff;
+.team_section {
+  background-image: url('images/didier-weemaels-ZKVBM2_Dp84-unsplash.jpg'); /* Your image path */
+  background-size: cover; /* Makes sure the image covers the entire section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating */
+  padding: 20px; /* Adjust padding as needed */
 }
+
+.team_section .heading_container h2 span {
+  color: #ffffff; /* White text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow for better visibility */
+}
+
 
 .team_section .box {
   display: -webkit-box;
@@ -700,9 +710,15 @@ h1 {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   padding: 0 10px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, transparent), color-stop(10%, #ffffff));
-  background: linear-gradient(to bottom, transparent 10%, #ffffff 10%);
+  
+  /* Combining Image and Gradient */
+  background: linear-gradient(to bottom, transparent 10%, #ffffff 10%), 
+              url('/Users/marc1705/Dropbox/Mac/Documents/GitHub/SDI/images/didier-weemaels-ZKVBM2_Dp84-unsplash.jpg'); 
+  background-size: cover; /* Ensure the image covers the box */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
 }
+
 
 .team_section .box .img-box img {
   width: 100%;
@@ -771,6 +787,10 @@ h1 {
   width: 50px;
   height: 50px;
   background-color: #ffffff;
+  background-image: url('/Users/marc1705/Dropbox/Mac/Documents/GitHub/SDI/images/didier-weemaels-ZKVBM2_Dp84-unsplash.jpg'); /* Specify the image URL */
+  background-size: cover; /* Adjust the size of the background image */
+  background-position: center; /* Center the background image */
+  background-repeat: repeat; /* Prevent repeating */
   outline: none;
   color: #000000;
   -webkit-transform: translateY(-50%);
@@ -778,7 +798,6 @@ h1 {
   font-size: 28px;
   font-weight: bold;
 }
-
 .team_section .team_carousel .owl-nav button:hover {
   background-color: #252525;
   color: #ffffff;

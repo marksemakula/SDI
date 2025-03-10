@@ -676,7 +676,7 @@ h1 {
 }
 
 .team_section .heading_container h2 {
-  color: #000000;
+  color: #006ee6;
   text-transform: uppercase;
   margin: 0;
 }
@@ -690,7 +690,7 @@ h1 {
 }
 
 .team_section .heading_container h2 span {
-  color: #ffffff; /* White text color */
+  color: #FF7600; /* White text color */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow for better visibility */
 }
 
@@ -701,23 +701,29 @@ h1 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   padding: 0 10px;
   
   /* Combining Image and Gradient */
-  background: linear-gradient(to bottom, transparent 10%, #ffffff 10%), 
+  background: linear-gradient(to bottom, transparent 100%, #FF7600 10%), 
               url('/Users/marc1705/Dropbox/Mac/Documents/GitHub/SDI/images/didier-weemaels-ZKVBM2_Dp84-unsplash.jpg'); 
   background-size: cover; /* Ensure the image covers the box */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent tiling */
 }
+
+.team_section .box .detail-box h5,
+.team_section .box .detail-box h6 {
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Dark shadow for better visibility */
+}
+
 
 
 .team_section .box .img-box img {
@@ -736,7 +742,7 @@ h1 {
 }
 
 .team_section .box .detail-box h6 {
-  color: #3dBc40;
+  color: #006ee6;
 }
 
 .team_section .box .detail-box .social_box {
@@ -800,7 +806,7 @@ h1 {
 }
 .team_section .team_carousel .owl-nav button:hover {
   background-color: #252525;
-  color: #ffffff;
+  color: #FF7600;
 }
 
 .team_section .team_carousel .owl-nav button.owl-prev {

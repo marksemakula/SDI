@@ -721,7 +721,7 @@ h1 {
 
 .team_section .box .detail-box h5,
 .team_section .box .detail-box h6 {
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Dark shadow for better visibility */
+  text-shadow: 2px 2px 6px rgba(3, 3, 3, 0.8); /* Dark shadow for better visibility */
 }
 
 
@@ -769,7 +769,7 @@ h1 {
           align-items: center;
   font-size: 18px;
   margin: 0 2.5px;
-  color: #000000;
+  color: #050000;
 }
 
 .team_section .team_carousel {
@@ -798,14 +798,14 @@ h1 {
   background-position: center; /* Center the background image */
   background-repeat: repeat; /* Prevent repeating */
   outline: none;
-  color: #000000;
+  color: #fdfcfc;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 28px;
   font-weight: bold;
 }
 .team_section .team_carousel .owl-nav button:hover {
-  background-color: #252525;
+  background-color: #fbf7f7;
   color: #FF7600;
 }
 
